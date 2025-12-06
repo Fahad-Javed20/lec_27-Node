@@ -1,0 +1,32 @@
+{
+  "name": "lec_27-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fahad-Javed20/lec_27-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Fahad-Javed20/lec_27-Node/issues"
+  },
+  "homepage": "https://github.com/Fahad-Javed20/lec_27-Node#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}
